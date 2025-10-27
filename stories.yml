@@ -1,0 +1,50 @@
+version: "3.1"
+
+stories:
+- story: happy path
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: mood_great
+    - action: utter_happy
+
+- story: sad path
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: mood_unhappy
+    - action: utter_cheer_up
+    - action: utter_did_that_help
+    - intent: affirm
+    - action: utter_happy
+
+- story: order status path
+  steps:
+    - intent: order_status
+    - action: action_check_order_status
+
+- story: payment status path
+  steps:
+    - intent: ask_payment_status
+    - action: action_check_PR_status
+
+- story: refund status path
+  steps:
+    - intent: ask_refund_status
+    - action: action_check_PR_status
+
+- story: place order path
+  steps:
+    - intent: place_order
+    - action: action_place_order
+
+- story: return order path
+  steps:
+    - intent: return_order
+    - action: action_return_order
+
+- story: ask capabilities path
+  steps:
+    - intent: ask_capabilities
+    - action: utter_capabilities
+

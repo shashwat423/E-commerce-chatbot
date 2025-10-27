@@ -1,0 +1,119 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - good morning
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - indeed
+
+- intent: deny
+  examples: |
+    - no
+    - never
+
+- intent: mood_great
+  examples: |
+    - I am feeling very good
+    - wonderful
+
+- intent: mood_unhappy
+  examples: |
+    - I am sad
+    - not good
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - am I talking to a human?
+
+- intent: order_status
+  examples: |
+    - What is the order status for [O034](order_id)
+    - Can you check status of order [O045](order_id)?
+    - Track my order [O023](order_id)
+    - Status for order [O120](order_id)
+
+- intent: ask_payment_status
+  examples: |
+    - What is the payment status of order [O034](order_id)?
+    - Is the payment completed for order [O034](order_id)?
+    - Tell me the payment status for [O034](order_id)
+    - Has the payment been made for order ID [O034](order_id)?
+    - Can you check if the payment for [O034](order_id) is pending?
+
+- intent: ask_refund_status
+  examples: |
+    - What is the refund status of order [O034](order_id)?
+    - Did I receive the refund for order [O034](order_id)?
+    - Has the refund been processed for order ID [O034](order_id)?
+    - Can you check refund status of [O034](order_id)?
+    - Tell me if the refund is complete for [O034](order_id)
+
+
+- intent: place_order
+  examples: |
+    - I want to order [5](quantity) units of [Surf Excel](product_name)
+    - Book me [2](quantity) [Colin](product_name)
+    - Can I get [1](quantity) [iPhone 15 Pro](product_name)?
+    - Please send [10](quantity) bottles of [Vimbar](product_name)
+    - Add [4](quantity) packets of [Kurkure](product_name) to my order
+    - I’d like to buy [7](quantity) [Colin](product_name)
+    - Order [3](quantity) [Dettol](product_name) for me
+    - Place an order of [6](quantity) [Surf Excel](product_name)
+    - I want [9](quantity) of [iPhone 15 Pro](product_name)
+    - Get me [8](quantity) [Kurkure](product_name)
+    - Please get [12](quantity) [Vim Bar](product_name)
+    - I need [4](quantity) [Dettol](product_name) urgently
+    - Give me [5](quantity) bottles of [Colin](product_name)
+    - Buy [3](quantity) [iPhone 15 Pro](product_name) for me
+    - Can you place an order for [2](quantity) [Kurkure](product_name)?
+    - I am looking to order [7](quantity) [Dettol](product_name)
+    - Help me buy [6](quantity) [Vim Bar](product_name)
+    - Add [3](quantity) [Colin](product_name) to my cart
+    - Send over [10](quantity) [Surf Excel](product_name)
+    - I’d like to get [1](quantity) [Kurkure](product_name)
+    - Book [2](quantity) pieces of [iPhone 15 Pro](product_name)
+    - Place an order of [5](quantity) for [Vim Bar](product_name)
+    - Can I order [7](quantity) [Dettol](product_name) please?
+    - Schedule a delivery for [4](quantity) [Colin](product_name)
+
+
+
+- intent: return_order
+  examples: |
+    - I want to return order [O002](order_id)
+    - Please return order [O045](order_id)
+    - I need to return order [O010](order_id)
+    - Can I return the product from order [O125](order_id)?
+    - I would like to initiate a return for [O031](order_id)
+    - Return the item from order ID [O067](order_id)
+    - Start a return for order [O099](order_id)
+    - I want a refund for order [O088](order_id)
+    - How do I return order [O112](order_id)?
+    - I received the wrong item in [O015](order_id)
+
+- intent: ask_capabilities
+  examples: |
+    - What can you do?
+    - Tell me your functions
+    - What help can you provide?
+    - What services do you offer?
+    - How can you help me?
+    - Show me what you can do
+    - What are your features?
+    - Can you tell me your capabilities?
+    - What kind of assistance can I get from you?
+    - List your functions

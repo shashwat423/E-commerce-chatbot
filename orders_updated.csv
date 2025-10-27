@@ -1,0 +1,307 @@
+Date,O_type,O_id,P_id,P_name,P_category,Quantity,amount,Deli_time,O_status,P_R_status
+2023-10-12,return,O001,I024,danone yogurt,dairy,114,3420.0,6,pending,complete
+2023-01-11,delivery,O002,I011,lipton iced tea,Beverages,2,60.0,9,pending,pending
+2023-10-06,return,O003,I096,Nerf Ultra 3 Blaster,Toys & Games,52,215756.84,6,complete,pending
+2023-11-02,return,O004,I086,Dyson V10 Animal Vacuum,Home & Kitchen,118,3917502.06,10,pending,complete
+2023-08-30,delivery,O005,I028,surf excel,Household,114,26220.0,7,complete,complete
+2023-06-03,return,O006,I094,LEGO Star Wars Millennium Falcon,Toys & Games,2,26558.34,5,complete,pending
+2023-10-05,return,O007,I063,Munch,Snacks,60,600.0,5,complete,complete
+2023-04-29,return,O008,I004,fanta,Beverages,39,3276.0,5,pending,complete
+2023-08-10,return,O009,I102,Melissa & Doug Wooden Puzzles,Toys & Games,74,122778.58,6,pending,complete
+2023-04-03,delivery,O010,I066,Apple Watch Series 1,Electronics,20,414983.4,9,pending,complete
+2023-02-16,delivery,O011,I087,Ninja Foodi 10-in-1,Home & Kitchen,106,1759512.02,9,shipped,complete
+2023-08-17,return,O012,I064,iPhone 15 Pro,Electronics,90,8216925.3,10,complete,complete
+2023-01-13,return,O013,I065,Samsung Galaxy S23,Electronics,61,4050349.37,9,complete,pending
+2023-09-13,return,O014,I013,bisleri,Beverages,75,1500.0,5,complete,pending
+2023-07-07,return,O015,I075,Nike Air Force 1 '07,Clothing & Apparel,3,27390.0,7,complete,pending
+2023-05-22,delivery,O016,I104,Yeti Rambler 20oz Tumbler,Sports & Outdoors,106,307842.02,9,dispatched,pending
+2023-04-02,delivery,O017,I039,all out,Household,120,9000.0,5,complete,complete
+2023-08-04,return,O018,I066,Apple Watch Series 1,Electronics,43,892214.31,10,pending,pending
+2023-03-17,return,O019,I090,Lodge Cast Iron Skillet,Home & Kitchen,31,102894.27,7,pending,complete
+2023-09-22,return,O020,I025,amul cream,dairy,86,5160.0,6,complete,pending
+2023-11-11,delivery,O021,I058,Cheetos,Snacks,63,1260.0,9,complete,complete
+2023-09-17,return,O022,I044,dettol soap,Personal Care,118,4130.0,5,complete,pending
+2023-02-17,delivery,O023,I110,The North Face Black Hole Duffel 40L,Sports & Outdoors,59,636561.03,8,shipped,pending
+2023-12-08,delivery,O024,I088,All-Clad Stainless Cookware,Home & Kitchen,85,2116429.45,5,shipped,pending
+2023-12-10,return,O025,I099,Hot Wheels 50-Car Pack,Toys & Games,54,134415.18,5,pending,pending
+2023-02-25,return,O026,I104,Yeti Rambler 20oz Tumbler,Sports & Outdoors,44,127783.48,9,pending,complete
+2023-12-27,return,O027,I051,Vaseline Lotion,Personal Care,55,9900.0,9,complete,pending
+2023-09-12,delivery,O028,I018,nandini milk,dairy,69,3795.0,10,complete,complete
+2023-09-09,delivery,O029,I044,dettol soap,Personal Care,76,2660.0,9,complete,complete
+2023-04-06,delivery,O030,I058,Cheetos,Snacks,6,120.0,5,dispatched,pending
+2023-10-18,return,O031,I060,5 Star,Snacks,7,140.0,5,complete,pending
+2023-08-11,return,O032,I040,dove soap,Personal Care,8,480.0,10,pending,complete
+2023-11-30,return,O033,I022,nestle yogurt,dairy,74,1850.0,5,complete,pending
+2023-10-31,return,O034,I049,himalaya face wash,Personal Care,84,10080.0,6,complete,complete
+2023-06-02,return,O035,I035,domex,Household,52,4680.0,5,pending,complete
+2023-09-11,delivery,O036,I087,Ninja Foodi 10-in-1,Home & Kitchen,86,1427528.62,10,dispatched,complete
+2023-02-03,return,O037,I001,coke,Beverages,23,1932.0,7,pending,complete
+2023-02-24,return,O038,I044,dettol soap,Personal Care,3,105.0,5,complete,complete
+2023-11-26,return,O039,I107,Hydro Flask 32oz Water Bottle,Sports & Outdoors,50,186542.5,9,complete,complete
+2023-04-07,delivery,O040,I099,Hot Wheels 50-Car Pack,Toys & Games,101,251406.17,8,pending,complete
+2023-12-06,return,O041,I060,5 Star,Snacks,40,800.0,5,complete,pending
+2023-05-25,return,O042,I039,all out,Household,45,3375.0,9,pending,pending
+2023-11-25,return,O043,I009,tropicana,Beverages,82,9020.0,6,pending,complete
+2023-05-27,return,O044,I069,Canon EOS R10 Camera,Electronics,34,2539771.78,5,pending,pending
+2023-05-17,return,O045,I106,Adidas Predator 1 Soccer Ball,Sports & Outdoors,49,121969.33,7,pending,complete
+2023-07-09,return,O046,I022,nestle yogurt,dairy,108,2700.0,9,complete,complete
+2023-02-23,return,O047,I067,Sony WH-1000XM5 Headphones,Electronics,18,522885.06,7,pending,pending
+2023-06-28,return,O048,I106,Adidas Predator 1 Soccer Ball,Sports & Outdoors,54,134415.18,8,pending,pending
+2023-09-22,delivery,O049,I080,Ralph Lauren Polo Shirt,Clothing & Apparel,9,67222.53,7,shipped,pending
+2023-07-14,delivery,O050,I075,Nike Air Force 1 '07,Clothing & Apparel,27,246510.0,7,dispatched,pending
+2023-11-16,return,O051,I060,5 Star,Snacks,14,280.0,10,pending,pending
+2023-08-08,delivery,O052,I082,Patagonia Nano Puff Jacket,Clothing & Apparel,56,1068993.52,7,dispatched,pending
+2023-11-03,delivery,O053,I044,dettol soap,Personal Care,19,665.0,6,shipped,pending
+2023-02-11,return,O054,I024,danone yogurt,dairy,38,1140.0,7,pending,complete
+2023-04-20,return,O055,I099,Hot Wheels 50-Car Pack,Toys & Games,12,29870.04,10,complete,pending
+2023-11-26,return,O056,I010,minute maid,Beverages,107,9630.0,9,complete,complete
+2023-11-06,delivery,O057,I040,dove soap,Personal Care,111,6660.0,6,pending,complete
+2023-05-27,return,O058,I063,Munch,Snacks,20,200.0,6,complete,complete
+2023-01-10,delivery,O059,I034,vimbar,Household,34,680.0,9,complete,pending
+2023-03-09,return,O060,I099,Hot Wheels 50-Car Pack,Toys & Games,4,9956.68,8,complete,pending
+2023-12-28,delivery,O061,I113,Black Diamond Headlamp,Sports & Outdoors,112,371375.2,10,pending,complete
+2023-08-20,delivery,O062,I083,Converse Chuck Taylor All-Star,Clothing & Apparel,100,456500.0,7,pending,complete
+2023-01-19,delivery,O063,I081,Under Armour Tech 2.0 Tee,Clothing & Apparel,77,166102.09,5,dispatched,complete
+2023-03-03,return,O064,I060,5 Star,Snacks,56,1120.0,5,pending,pending
+2023-11-20,delivery,O065,I073,JBL Flip 6 Speaker,Electronics,107,1154441.19,8,shipped,pending
+2023-03-24,delivery,O066,I059,Perk,Snacks,64,640.0,10,dispatched,pending
+2023-03-26,return,O067,I071,Nintendo Switch OLED,Electronics,13,377639.21,10,pending,complete
+2023-11-18,return,O068,I026,govardhan ghee,dairy,69,34500.0,8,complete,pending
+2023-12-27,return,O069,I093,OXO Good Grips Can Opener,Home & Kitchen,66,71159.22,10,complete,complete
+2023-05-17,return,O070,I100,Jenga Classic Game,Toys & Games,4,4976.68,7,complete,pending
+2023-10-30,delivery,O071,I066,Apple Watch Series 1,Electronics,30,622475.1,5,shipped,complete
+2023-04-19,delivery,O072,I091,Crock-Pot Slow Cooker,Home & Kitchen,32,663973.44,10,dispatched,pending
+2023-02-05,return,O073,I032,lizol,Household,61,5795.0,7,complete,complete
+2023-12-14,delivery,O074,I009,tropicana,Beverages,62,6820.0,8,dispatched,pending
+2023-02-09,return,O075,I025,amul cream,dairy,25,1500.0,6,complete,pending
+2023-12-22,return,O076,I014,kinley,Beverages,24,480.0,7,complete,pending
+2023-01-19,delivery,O077,I069,Canon EOS R10 Camera,Electronics,84,6274730.28,8,shipped,pending
+2023-09-09,return,O078,I021,amul cheese,dairy,70,8400.0,8,complete,pending
+2023-06-22,return,O079,I023,britannia cheese,dairy,27,3375.0,10,pending,complete
+2023-11-05,delivery,O080,I037,hit spray,Household,108,10260.0,7,shipped,pending
+2023-07-25,delivery,O081,I082,Patagonia Nano Puff Jacket,Clothing & Apparel,55,1049904.35,8,complete,pending
+2023-01-15,delivery,O082,I041,lux soap,Personal Care,104,3640.0,10,pending,pending
+2023-11-15,delivery,O083,I045,santoor soap,Personal Care,49,1470.0,6,shipped,pending
+2023-12-16,return,O084,I108,Wilson Evolution Basketball,Sports & Outdoors,113,562646.21,10,complete,pending
+2023-07-31,return,O085,I069,Canon EOS R10 Camera,Electronics,79,5901234.43,7,complete,pending
+2023-06-16,return,O086,I028,surf excel,Household,67,15410.0,5,complete,pending
+2023-07-06,delivery,O087,I084,Instant Pot Duo 6-Qt,Home & Kitchen,81,604733.85,5,pending,complete
+2023-01-12,delivery,O088,I035,domex,Household,72,6480.0,5,shipped,complete
+2023-06-21,return,O089,I106,Adidas Predator 1 Soccer Ball,Sports & Outdoors,7,17424.19,9,pending,pending
+2023-08-28,delivery,O090,I034,vimbar,Household,119,2380.0,7,dispatched,pending
+2023-07-15,delivery,O091,I094,LEGO Star Wars Millennium Falcon,Toys & Games,19,252304.23,6,pending,complete
+2023-11-30,delivery,O092,I065,Samsung Galaxy S23,Electronics,112,7436707.04,8,shipped,pending
+2023-10-24,delivery,O093,I044,dettol soap,Personal Care,6,210.0,7,dispatched,complete
+2023-05-26,return,O094,I054,Bingo,Snacks,48,960.0,10,complete,pending
+2023-02-19,return,O095,I084,Instant Pot Duo 6-Qt,Home & Kitchen,111,828709.35,5,complete,complete
+2023-04-04,delivery,O096,I028,surf excel,Household,1,230.0,7,shipped,complete
+2023-09-10,return,O097,I011,lipton iced tea,Beverages,11,330.0,7,complete,pending
+2023-09-19,return,O098,I063,Munch,Snacks,100,1000.0,6,complete,complete
+2023-12-30,return,O099,I060,5 Star,Snacks,94,1880.0,9,pending,complete
+2023-09-30,return,O100,I066,Apple Watch Series 1,Electronics,118,2448402.06,7,complete,pending
+2023-04-05,return,O101,I097,Barbie Dreamhouse,Toys & Games,119,1975301.23,7,pending,complete
+2023-05-16,delivery,O102,I016,amul milk,dairy,28,1680.0,8,dispatched,complete
+2023-12-16,delivery,O103,I044,dettol soap,Personal Care,74,2590.0,5,pending,complete
+2023-05-14,delivery,O104,I067,Sony WH-1000XM5 Headphones,Electronics,88,2556326.96,5,dispatched,pending
+2023-05-04,return,O105,I030,tide powder,Household,76,15960.0,10,complete,complete
+2023-02-11,return,O106,I037,hit spray,Household,30,2850.0,8,pending,pending
+2023-05-01,delivery,O107,I074,Levi's 501 Original Jeans,Clothing & Apparel,21,104562.57,8,pending,pending
+2023-11-25,return,O108,I107,Hydro Flask 32oz Water Bottle,Sports & Outdoors,103,384277.55,8,pending,pending
+2023-08-17,return,O109,I016,amul milk,dairy,17,1020.0,7,pending,complete
+2023-10-27,return,O110,I002,pepsi,Beverages,99,8910.0,7,complete,pending
+2023-02-02,return,O111,I039,all out,Household,56,4200.0,10,pending,complete
+2023-11-11,delivery,O112,I046,colgate toothpaste,Personal Care,68,6800.0,6,complete,pending
+2023-03-05,return,O113,I064,iPhone 15 Pro,Electronics,73,6664839.41,6,complete,complete
+2023-09-02,delivery,O114,I077,Calvin Klein Cotton Boxers,Clothing & Apparel,105,217787.85,9,shipped,pending
+2023-03-13,return,O115,I058,Cheetos,Snacks,106,2120.0,6,complete,complete
+2023-02-06,return,O116,I024,danone yogurt,dairy,99,2970.0,9,complete,pending
+2023-04-08,delivery,O117,I029,ariel detergent,Household,87,19575.0,8,shipped,complete
+2023-09-08,delivery,O118,I005, mountain dew,Beverages,93,7626.0,5,complete,complete
+2023-04-09,return,O119,I060,5 Star,Snacks,76,1520.0,8,pending,pending
+2023-03-30,delivery,O120,I104,Yeti Rambler 20oz Tumbler,Sports & Outdoors,47,136495.99,10,shipped,complete
+2023-09-26,return,O121,I024,danone yogurt,dairy,42,1260.0,10,complete,complete
+2023-08-14,delivery,O122,I019,amul butter,dairy,113,26555.0,7,pending,pending
+2023-02-23,return,O123,I002,pepsi,Beverages,75,6750.0,9,complete,pending
+2023-02-05,delivery,O124,I071,Nintendo Switch OLED,Electronics,111,3224457.87,6,shipped,complete
+2023-03-05,return,O125,I033,colin,Household,19,1615.0,7,complete,pending
+2023-07-22,delivery,O126,I062,KitKat,Snacks,116,2320.0,5,shipped,pending
+2023-09-08,return,O127,I025,amul cream,dairy,68,4080.0,7,complete,complete
+2023-08-27,return,O128,I098,PlayStation 5 DualSense Controller,Toys & Games,64,371786.88,6,complete,pending
+2023-08-02,return,O129,I102,Melissa & Doug Wooden Puzzles,Toys & Games,38,63048.46,10,complete,complete
+2023-02-27,return,O130,I030,tide powder,Household,37,7770.0,10,pending,complete
+2023-02-16,delivery,O131,I087,Ninja Foodi 10-in-1,Home & Kitchen,17,282185.89,9,complete,pending
+2023-07-30,delivery,O132,I042,pears soap,Personal Care,37,1480.0,10,dispatched,complete
+2023-07-15,delivery,O133,I016,amul milk,dairy,56,3360.0,7,dispatched,complete
+2023-04-02,delivery,O134,I075,Nike Air Force 1 '07,Clothing & Apparel,82,748660.0,9,shipped,complete
+2023-09-17,return,O135,I066,Apple Watch Series 1,Electronics,35,726220.95,9,pending,pending
+2023-02-20,return,O136,I050,nivea cream,Personal Care,116,17400.0,6,pending,complete
+2023-06-04,delivery,O137,I109,Yeti Hopper Flip 12 Cooler,Sports & Outdoors,95,1971171.15,9,shipped,complete
+2023-05-24,delivery,O138,I023,britannia cheese,dairy,63,7875.0,5,complete,pending
+2023-07-10,return,O139,I071,Nintendo Switch OLED,Electronics,80,2323933.6,6,pending,pending
+2023-01-01,delivery,O140,I085,KitchenAid Stand Mixer,Home & Kitchen,6,174295.02,8,shipped,pending
+2023-08-03,delivery,O141,I011,lipton iced tea,Beverages,113,3390.0,6,shipped,complete
+2023-12-26,delivery,O142,I088,All-Clad Stainless Cookware,Home & Kitchen,39,971067.63,7,shipped,complete
+2023-11-06,delivery,O143,I083,Converse Chuck Taylor All-Star,Clothing & Apparel,81,369765.0,8,dispatched,complete
+2023-10-31,delivery,O144,I020,mother dairy curd,dairy,30,1500.0,10,dispatched,pending
+2023-05-01,return,O145,I070,Amazon Echo Dot (3rd Gen),Electronics,11,45640.87,5,complete,complete
+2023-11-07,return,O146,I084,Instant Pot Duo 6-Qt,Home & Kitchen,37,276236.45,5,complete,complete
+2023-03-12,return,O147,I023,britannia cheese,dairy,85,10625.0,6,complete,pending
+2023-07-02,return,O148,I068,MacBook Air M1,Electronics,119,9867123.0,8,pending,complete
+2023-04-10,delivery,O149,I084,Instant Pot Duo 6-Qt,Home & Kitchen,29,216509.65,7,pending,pending
+2023-11-04,return,O150,I110,The North Face Black Hole Duffel 40L,Sports & Outdoors,33,356042.61,8,complete,complete
+2023-08-06,return,O151,I103,Rubik's Cube,Toys & Games,6,4975.02,5,complete,pending
+2023-11-10,delivery,O152,I078,North Face Denali Jacket,Clothing & Apparel,2,33198.34,9,pending,complete
+2023-05-02,delivery,O153,I108,Wilson Evolution Basketball,Sports & Outdoors,87,433187.79,10,complete,pending
+2023-06-01,delivery,O154,I033,colin,Household,18,1530.0,5,complete,pending
+2023-05-16,return,O155,I078,North Face Denali Jacket,Clothing & Apparel,114,1892305.38,9,complete,complete
+2023-04-05,delivery,O156,I094,LEGO Star Wars Millennium Falcon,Toys & Games,94,1248241.98,6,complete,pending
+2023-10-04,return,O157,I101,Uno Card Game,Toys & Games,113,56180.21,5,complete,pending
+2023-08-09,return,O158,I032,lizol,Household,41,3895.0,8,complete,complete
+2023-08-26,return,O159,I113,Black Diamond Headlamp,Sports & Outdoors,71,235425.35,8,complete,pending
+2023-06-18,return,O160,I039,all out,Household,60,4500.0,8,complete,pending
+2023-09-13,return,O161,I049,himalaya face wash,Personal Care,54,6480.0,10,pending,complete
+2023-09-26,delivery,O162,I079,UGG Classic Mini Boots,Clothing & Apparel,6,74695.02,10,dispatched,pending
+2023-11-17,delivery,O163,I079,UGG Classic Mini Boots,Clothing & Apparel,110,1369408.7,6,pending,pending
+2023-11-22,delivery,O164,I069,Canon EOS R10 Camera,Electronics,77,5751836.09,7,shipped,complete
+2023-10-21,return,O165,I021,amul cheese,dairy,93,11160.0,8,complete,pending
+2023-01-24,return,O166,I097,Barbie Dreamhouse,Toys & Games,78,1294735.26,7,complete,complete
+2023-01-29,return,O167,I007,red bull,Beverages,51,6375.0,8,pending,complete
+2023-02-28,return,O168,I105,Coleman Sundome 6-Person Tent,Sports & Outdoors,66,821645.22,10,complete,complete
+2023-05-13,delivery,O169,I096,Nerf Ultra 3 Blaster,Toys & Games,85,352679.45,5,dispatched,pending
+2023-12-12,return,O170,I051,Vaseline Lotion,Personal Care,62,11160.0,9,complete,complete
+2023-05-17,delivery,O171,I071,Nintendo Switch OLED,Electronics,109,3166359.53,9,pending,pending
+2023-05-22,delivery,O172,I057,Uncle Chipps,Snacks,60,1200.0,10,shipped,complete
+2023-08-28,delivery,O173,I023,britannia cheese,dairy,17,2125.0,10,pending,complete
+2023-09-25,return,O174,I097,Barbie Dreamhouse,Toys & Games,68,1128743.56,8,complete,complete
+2023-11-23,delivery,O175,I087,Ninja Foodi 10-in-1,Home & Kitchen,1,16599.17,5,dispatched,complete
+2023-12-08,return,O176,I009,tropicana,Beverages,80,8800.0,5,complete,pending
+2023-10-05,delivery,O177,I008,gatorade,Beverages,16,800.0,10,shipped,complete
+2023-07-09,delivery,O178,I053,Kurkure,Snacks,66,1320.0,5,pending,pending
+2023-05-06,return,O179,I021,amul cheese,dairy,16,1920.0,8,complete,pending
+2023-05-03,return,O180,I105,Coleman Sundome 6-Person Tent,Sports & Outdoors,83,1033281.11,10,complete,complete
+2023-05-22,return,O181,I057,Uncle Chipps,Snacks,83,1660.0,9,pending,pending
+2023-11-25,return,O182,I099,Hot Wheels 50-Car Pack,Toys & Games,14,34848.38,10,complete,complete
+2023-03-16,return,O183,I035,domex,Household,55,4950.0,10,complete,complete
+2023-09-23,return,O184,I103,Rubik's Cube,Toys & Games,32,26533.44,5,complete,pending
+2023-07-09,delivery,O185,I069,Canon EOS R10 Camera,Electronics,110,8216908.7,8,shipped,complete
+2023-03-27,return,O186,I085,KitchenAid Stand Mixer,Home & Kitchen,6,174295.02,7,complete,pending
+2023-01-17,delivery,O187,I052,Lays,Snacks,87,1740.0,9,pending,pending
+2023-09-05,delivery,O188,I029,ariel detergent,Household,8,1800.0,9,pending,complete
+2023-08-09,return,O189,I083,Converse Chuck Taylor All-Star,Clothing & Apparel,103,470195.0,9,pending,complete
+2023-05-02,return,O190,I004,fanta,Beverages,2,168.0,10,pending,complete
+2023-05-03,delivery,O191,I072,"LG OLED C3 TV 65""",Electronics,2,298798.34,5,pending,pending
+2023-07-07,return,O192,I037,hit spray,Household,78,7410.0,8,pending,complete
+2023-11-22,delivery,O193,I023,britannia cheese,dairy,29,3625.0,9,dispatched,pending
+2023-02-26,return,O194,I037,hit spray,Household,35,3325.0,5,pending,pending
+2023-10-03,return,O195,I054,Bingo,Snacks,29,580.0,9,pending,complete
+2023-02-12,return,O196,I022,nestle yogurt,dairy,120,3000.0,8,pending,complete
+2023-09-08,delivery,O197,I018,nandini milk,dairy,45,2475.0,5,shipped,pending
+2023-02-07,return,O198,I062,KitKat,Snacks,3,60.0,5,pending,complete
+2023-07-25,delivery,O199,I109,Yeti Hopper Flip 12 Cooler,Sports & Outdoors,18,373485.06,9,dispatched,pending
+2023-03-31,return,O200,I039,all out,Household,9,675.0,10,pending,pending
+2023-12-24,return,O201,I015,appy fizz,Beverages,43,1505.0,9,pending,complete
+2023-08-24,delivery,O202,I097,Barbie Dreamhouse,Toys & Games,96,1593520.32,5,complete,pending
+2023-09-16,delivery,O203,I096,Nerf Ultra 3 Blaster,Toys & Games,9,37342.53,8,complete,pending
+2023-10-31,delivery,O204,I107,Hydro Flask 32oz Water Bottle,Sports & Outdoors,75,279813.75,5,complete,complete
+2023-10-20,delivery,O205,I018,nandini milk,dairy,78,4290.0,5,dispatched,pending
+2023-09-26,return,O206,I010,minute maid,Beverages,12,1080.0,5,pending,pending
+2023-10-31,return,O207,I048,pepsodant,Personal Care,17,1445.0,8,pending,pending
+2023-11-05,return,O208,I074,Levi's 501 Original Jeans,Clothing & Apparel,75,373437.75,9,complete,complete
+2023-06-18,return,O209,I069,Canon EOS R10 Camera,Electronics,115,8590404.55,9,complete,complete
+2023-02-11,return,O210,I073,JBL Flip 6 Speaker,Electronics,69,744452.73,9,complete,complete
+2023-05-31,delivery,O211,I030,tide powder,Household,112,23520.0,5,shipped,pending
+2023-03-12,return,O212,I094,LEGO Star Wars Millennium Falcon,Toys & Games,113,1500546.21,5,pending,pending
+2023-05-21,delivery,O213,I048,pepsodant,Personal Care,110,9350.0,10,complete,complete
+2023-10-07,delivery,O214,I044,dettol soap,Personal Care,111,3885.0,10,pending,pending
+2023-11-15,return,O215,I112,Nalgene Wide Mouth 1L Bottle,Sports & Outdoors,85,91644.45,10,complete,pending
+2023-03-11,delivery,O216,I112,Nalgene Wide Mouth 1L Bottle,Sports & Outdoors,52,56064.84,5,dispatched,pending
+2023-12-21,return,O217,I068,MacBook Air M1,Electronics,106,8789202.0,7,pending,pending
+2023-12-30,return,O218,I056,Pringles,Snacks,92,9108.0,9,pending,complete
+2023-10-09,delivery,O219,I065,Samsung Galaxy S23,Electronics,117,7768702.89,5,dispatched,complete
+2023-06-18,return,O220,I057,Uncle Chipps,Snacks,50,1000.0,8,pending,pending
+2023-10-16,delivery,O221,I086,Dyson V10 Animal Vacuum,Home & Kitchen,56,1859153.52,8,complete,complete
+2023-12-07,return,O222,I103,Rubik's Cube,Toys & Games,87,72137.79,9,complete,complete
+2023-02-07,delivery,O223,I085,KitchenAid Stand Mixer,Home & Kitchen,15,435737.55,9,shipped,complete
+2023-11-09,return,O224,I003,sprite,Beverages,108,9072.0,9,complete,complete
+2023-05-27,delivery,O225,I112,Nalgene Wide Mouth 1L Bottle,Sports & Outdoors,37,39892.29,8,shipped,pending
+2023-05-18,delivery,O226,I025,amul cream,dairy,92,5520.0,10,pending,complete
+2023-07-25,delivery,O227,I023,britannia cheese,dairy,49,6125.0,9,pending,complete
+2023-12-30,delivery,O228,I068,MacBook Air M1,Electronics,73,6052941.0,9,dispatched,pending
+2023-10-29,return,O229,I021,amul cheese,dairy,115,13800.0,7,pending,complete
+2023-06-05,return,O230,I064,iPhone 15 Pro,Electronics,70,6390941.9,10,complete,pending
+2023-07-05,delivery,O231,I088,All-Clad Stainless Cookware,Home & Kitchen,7,174294.19,7,shipped,complete
+2023-04-30,delivery,O232,I035,domex,Household,41,3690.0,9,complete,pending
+2023-07-20,return,O233,I092,Cuisinart TOA-60 Toaster,Home & Kitchen,89,590886.13,7,complete,pending
+2023-12-02,delivery,O234,I021,amul cheese,dairy,80,9600.0,9,complete,pending
+2023-08-15,return,O235,I053,Kurkure,Snacks,110,2200.0,6,pending,complete
+2023-03-04,return,O236,I002,pepsi,Beverages,112,10080.0,5,complete,complete
+2023-02-11,return,O237,I092,Cuisinart TOA-60 Toaster,Home & Kitchen,3,19917.51,9,complete,pending
+2023-08-05,return,O238,I099,Hot Wheels 50-Car Pack,Toys & Games,18,44805.06,5,pending,pending
+2023-02-13,delivery,O239,I062,KitKat,Snacks,47,940.0,9,complete,pending
+2023-01-29,delivery,O240,I106,Adidas Predator 1 Soccer Ball,Sports & Outdoors,86,214068.62,10,shipped,pending
+2023-04-23,return,O241,I061,Dairy Milk,Snacks,38,760.0,9,pending,complete
+2023-05-19,return,O242,I018,nandini milk,dairy,17,935.0,5,complete,pending
+2023-09-09,return,O243,I026,govardhan ghee,dairy,67,33500.0,10,complete,pending
+2023-05-09,return,O244,I058,Cheetos,Snacks,29,580.0,5,pending,pending
+2023-05-12,return,O245,I075,Nike Air Force 1 '07,Clothing & Apparel,33,301290.0,7,complete,pending
+2023-04-25,return,O246,I037,hit spray,Household,9,855.0,7,complete,pending
+2023-08-31,return,O247,I029,ariel detergent,Household,96,21600.0,7,complete,complete
+2023-11-16,return,O248,I092,Cuisinart TOA-60 Toaster,Home & Kitchen,118,783422.06,5,complete,pending
+2023-02-23,delivery,O249,I087,Ninja Foodi 10-in-1,Home & Kitchen,87,1444127.79,10,shipped,complete
+2023-10-14,delivery,O250,I029,ariel detergent,Household,34,7650.0,5,dispatched,pending
+2023-04-05,delivery,O251,I006,7up,Beverages,5,420.0,7,dispatched,pending
+2023-09-10,delivery,O252,I082,Patagonia Nano Puff Jacket,Clothing & Apparel,24,458140.08,9,dispatched,pending
+2023-03-05,delivery,O253,I099,Hot Wheels 50-Car Pack,Toys & Games,74,184198.58,9,shipped,complete
+2023-09-13,return,O254,I105,Coleman Sundome 6-Person Tent,Sports & Outdoors,110,1369408.7,7,pending,pending
+2023-03-22,return,O255,I004,fanta,Beverages,29,2436.0,10,pending,complete
+2023-09-15,return,O256,I032,lizol,Household,26,2470.0,7,complete,pending
+2023-07-09,return,O257,I113,Black Diamond Headlamp,Sports & Outdoors,1,3315.85,8,pending,pending
+2023-04-14,delivery,O258,I080,Ralph Lauren Polo Shirt,Clothing & Apparel,51,380927.67,10,complete,complete
+2023-11-06,return,O259,I107,Hydro Flask 32oz Water Bottle,Sports & Outdoors,111,414124.35,10,complete,complete
+2023-02-21,return,O260,I064,iPhone 15 Pro,Electronics,31,2830274.27,5,complete,pending
+2023-07-27,return,O261,I026,govardhan ghee,dairy,61,30500.0,10,complete,pending
+2023-10-23,delivery,O262,I024,danone yogurt,dairy,3,90.0,9,pending,pending
+2023-01-05,delivery,O263,I037,hit spray,Household,10,950.0,10,complete,complete
+2023-12-21,return,O264,I061,Dairy Milk,Snacks,34,680.0,7,complete,pending
+2023-09-14,delivery,O265,I088,All-Clad Stainless Cookware,Home & Kitchen,51,1269857.67,6,dispatched,complete
+2023-10-15,return,O266,I072,"LG OLED C3 TV 65""",Electronics,89,13296526.13,9,complete,pending
+2023-05-12,delivery,O267,I076,Adidas Originals T-Shirt,Clothing & Apparel,89,221536.13,9,dispatched,pending
+2023-12-23,return,O268,I071,Nintendo Switch OLED,Electronics,37,1074819.29,7,pending,pending
+2023-06-18,return,O269,I094,LEGO Star Wars Millennium Falcon,Toys & Games,9,119512.53,6,complete,pending
+2023-11-19,return,O270,I050,nivea cream,Personal Care,7,1050.0,6,pending,pending
+2023-03-18,delivery,O271,I004,fanta,Beverages,28,2352.0,10,dispatched,complete
+2023-09-10,delivery,O272,I111,Garmin Forerunner 10 GPS Watch,Sports & Outdoors,11,91290.87,9,dispatched,complete
+2023-11-15,return,O273,I008,gatorade,Beverages,102,5100.0,8,pending,complete
+2023-01-06,delivery,O274,I095,Monopoly Classic Board Game,Toys & Games,84,174230.28,6,pending,complete
+2023-08-05,return,O275,I093,OXO Good Grips Can Opener,Home & Kitchen,70,75471.9,7,complete,pending
+2023-04-21,delivery,O276,I078,North Face Denali Jacket,Clothing & Apparel,101,1676516.17,7,pending,complete
+2023-03-01,return,O277,I087,Ninja Foodi 10-in-1,Home & Kitchen,71,1178541.07,8,pending,pending
+2023-02-06,delivery,O278,I017,mother dairy milk,dairy,72,4176.0,7,shipped,complete
+2023-03-12,return,O279,I091,Crock-Pot Slow Cooker,Home & Kitchen,1,20749.17,6,pending,complete
+2023-03-23,delivery,O280,I101,Uno Card Game,Toys & Games,49,24361.33,9,shipped,complete
+2023-03-30,return,O281,I086,Dyson V10 Animal Vacuum,Home & Kitchen,45,1493962.65,8,pending,complete
+2023-04-20,return,O282,I031,harpic,Household,115,10350.0,7,complete,pending
+2023-10-03,delivery,O283,I070,Amazon Echo Dot (3rd Gen),Electronics,42,174265.14,9,pending,complete
+2023-05-18,return,O284,I079,UGG Classic Mini Boots,Clothing & Apparel,23,286330.91,10,complete,pending
+2023-08-14,delivery,O285,I036,dettol liquid,Household,83,8715.0,8,pending,pending
+2023-11-10,delivery,O286,I070,Amazon Echo Dot (3rd Gen),Electronics,17,70535.89,7,shipped,pending
+2023-11-05,return,O287,I100,Jenga Classic Game,Toys & Games,108,134370.36,9,complete,complete
+2023-12-22,delivery,O288,I070,Amazon Echo Dot (3rd Gen),Electronics,77,319486.09,5,shipped,pending
+2023-10-14,return,O289,I105,Coleman Sundome 6-Person Tent,Sports & Outdoors,77,958586.09,8,complete,pending
+2023-02-22,delivery,O290,I053,Kurkure,Snacks,87,1740.0,5,dispatched,complete
+2023-01-13,delivery,O291,I035,domex,Household,91,8190.0,9,shipped,complete
+2023-07-22,delivery,O292,I104,Yeti Rambler 20oz Tumbler,Sports & Outdoors,7,20329.19,9,dispatched,pending
+2023-09-23,delivery,O293,I077,Calvin Klein Cotton Boxers,Clothing & Apparel,118,244752.06,10,dispatched,pending
+2023-12-16,delivery,O294,I008,gatorade,Beverages,112,5600.0,9,complete,complete
+2023-02-13,return,O295,I103,Rubik's Cube,Toys & Games,67,55554.39,10,complete,complete
+2023-04-26,delivery,O296,I004,fanta,Beverages,44,3696.0,10,dispatched,pending
+2023-05-21,delivery,O297,I026,govardhan ghee,dairy,105,52500.0,6,shipped,pending
+2023-08-20,return,O298,I108,Wilson Evolution Basketball,Sports & Outdoors,37,184229.29,6,pending,complete
+2023-02-28,return,O299,I019,amul butter,dairy,107,25145.0,5,complete,pending
+2023-05-07,return,O300,I099,Hot Wheels 50-Car Pack,Toys & Games,93,231492.81,8,pending,complete
+2025-05-17,delivery,O301,I053,Kurkure,Snacks,10,200.0,5,Pending,Pending
+2025-05-17,return,O302,I074,Levi's 501 Original Jeans,Clothing & Apparel,21,104562.57,6,Pending,Pending
+2025-05-17,delivery,O303,I034,Vimbar,Household,10,200.0,9,Pending,Pending
+2025-05-17,delivery,O304,I033,Colin,Household,10,850.0,7,Pending,Pending
+2025-05-17,delivery,O305,I033,Colin,Household,10,850.0,5,Pending,Pending
+2025-05-17,return,O306,I049,himalaya face wash,Personal Care,84,10080.0,10,Pending,Pending

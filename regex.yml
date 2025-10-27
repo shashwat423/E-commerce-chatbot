@@ -1,0 +1,159 @@
+version: "3.1"
+
+regex:
+  # Beverages (Enhanced)
+  - name: "product_name"
+    pattern: |
+      (?i)\b(
+      coke|pepsi|sprite|fanta|
+      mountain(\s*|-)*dew|
+      7(\s*|-)*up|
+      red(\s*|-)*bull|
+      gatorade|tropicana|
+      minute(\s*|-)*maid|
+      lipton(\s*|-)*iced(\s*|-)*tea|
+      aquafina|bisleri|kinley|
+      appy(\s*|-)*fizz
+      )\b
+
+  # Dairy (Enhanced)
+  - name: "product_name"
+    pattern: |
+      (?i)\b(
+      amul(\s*|-)*(milk|butter|cheese|cream)|
+      mother(\s*|-)*dairy(\s*|-)*(milk|curd)|
+      nandini(\s*|-)*milk|
+      nestle(\s*|-)*yogurt|
+      britannia(\s*|-)*cheese|
+      danone(\s*|-)*yogurt|
+      govardhan(\s*|-)*ghee|
+      milky(\s*|-)*mist(\s*|-)*paneer
+      )\b
+
+  # Household (Enhanced)
+  - name: "product_name"
+    pattern: |
+      (?i)\b(
+      surf(\s*|-)*excel|
+      ariel(\s*|-)*detergent|
+      tide(\s*|-)*powder|
+      harpic|lizol|colin|
+      vim(\s*|-)*bar|
+      domex|
+      dettol(\s*|-)*liquid|
+      hit(\s*|-)*spray|
+      good(\s*|-)*knight|
+      all(\s*|-)*out
+      )\b
+
+  # Personal Care (Enhanced)
+  - name: "product_name"
+    pattern: |
+      (?i)\b(
+      dove(\s*|-)*soap|
+      lux(\s*|-)*soap|
+      pears(\s*|-)*soap|
+      lifebuoy(\s*|-)*soap|
+      dettol(\s*|-)*soap|
+      santoor(\s*|-)*soap|
+      colgate(\s*|-)*toothpaste|
+      close(\s*|-)*up|
+      pepsodant|
+      himalaya(\s*|-)*face(\s*|-)*wash|
+      nivea(\s*|-)*cream|
+      vaseline(\s*|-)*lotion
+      )\b
+
+  # Snacks (Enhanced)
+  - name: "product_name"
+    pattern: |
+      (?i)\b(
+      lays|kurkure|bingo|
+      haldiram(\s*|-)*bhujia|
+      pringles|
+      uncle(\s*|-)*chipps|
+      cheetos|perk|
+      5(\s*|-)*star|
+      dairy(\s*|-)*milk|
+      kitkat|munch
+      )\b
+
+  # Electronics (Enhanced)
+  - name: "product_name"
+    pattern: |
+      (?i)\b(
+      iphone(\s*|-)*15(\s*|-)*pro?|
+      samsung(\s*|-)*galaxy(\s*|-)*s23|
+      apple(\s*|-)*watch(\s*|-)*series(\s*|-)*1|
+      sony(\s*|-)*wh(\s*|-)*1000xm5|
+      macbook(\s*|-)*air(\s*|-)*m1|
+      canon(\s*|-)*eos(\s*|-)*r10|
+      amazon(\s*|-)*echo(\s*|-)*dot|
+      nintendo(\s*|-)*switch(\s*|-)*oled|
+      lg(\s*|-)*oled(\s*|-)*c3(\s*|-)*tv|
+      jbl(\s*|-)*flip(\s*|-)*6
+      )\b
+
+  # Clothing & Apparel (Enhanced)
+  - name: "product_name"
+    pattern: |
+      (?i)\b(
+      levi('?s|\s*|-)*501|
+      nike(\s*|-)*air(\s*|-)*force(\s*|-)*1|
+      adidas(\s*|-)*originals(\s*|-)*t(\s*|-)*shirt|
+      calvin(\s*|-)*klein(\s*|-)*cotton(\s*|-)*boxers|
+      north(\s*|-)*face(\s*|-)*denali(\s*|-)*jacket|
+      ugg(\s*|-)*classic(\s*|-)*mini(\s*|-)*boots|
+      ralph(\s*|-)*lauren(\s*|-)*polo(\s*|-)*shirt|
+      under(\s*|-)*armour(\s*|-)*tech(\s*|-)*2(\s*|\.)*0(\s*|-)*tee|
+      patagonia(\s*|-)*nano(\s*|-)*puff(\s*|-)*jacket|
+      converse(\s*|-)*chuck(\s*|-)*taylor(\s*|-)*all(\s*|-)*star
+      )\b
+
+  # Home & Kitchen (Enhanced)
+  - name: "product_name"
+    pattern: |
+      (?i)\b(
+      instant(\s*|-)*pot(\s*|-)*duo(\s*|-)*6|
+      kitchenaid(\s*|-)*stand(\s*|-)*mixer|
+      dyson(\s*|-)*v10(\s*|-)*animal(\s*|-)*vacuum|
+      ninja(\s*|-)*foodi(\s*|-)*10(\s*|-)*in(\s*|-)*1|
+      all(\s*|-)*clad(\s*|-)*stainless(\s*|-)*cookware|
+      keurig(\s*|-)*k(\s*|-)*elite(\s*|-)*coffee(\s*|-)*maker|
+      lodge(\s*|-)*cast(\s*|-)*iron(\s*|-)*skillet|
+      crock(\s*|-)*pot(\s*|-)*slow(\s*|-)*cooker|
+      cuisinart(\s*|-)*toa(\s*|-)*60(\s*|-)*toaster|
+      oxo(\s*|-)*good(\s*|-)*grips(\s*|-)*can(\s*|-)*opener
+      )\b
+
+  # Toys & Games (Enhanced)
+  - name: "product_name"
+    pattern: |
+      (?i)\b(
+      lego(\s*|-)*star(\s*|-)*wars(\s*|-)*millennium(\s*|-)*falcon|
+      monopoly(\s*|-)*classic(\s*|-)*board(\s*|-)*game|
+      nerf(\s*|-)*ultra(\s*|-)*3(\s*|-)*blaster|
+      barbie(\s*|-)*dreamhouse|
+      playstation(\s*|-)*5(\s*|-)*dualsense(\s*|-)*controller|
+      hot(\s*|-)*wheels(\s*|-)*50(\s*|-)*car(\s*|-)*pack|
+      jenga(\s*|-)*classic(\s*|-)*game|
+      uno(\s*|-)*card(\s*|-)*game|
+      melissa(\s*|\&|and)*doug(\s*|-)*wooden(\s*|-)*puzzles|
+      rubik('?s|\s*|-)*cube
+      )\b
+
+  # Sports & Outdoors (Enhanced)
+  - name: "product_name"
+    pattern: |
+      (?i)\b(
+      yeti(\s*|-)*rambler(\s*|-)*20oz(\s*|-)*tumbler|
+      coleman(\s*|-)*sundome(\s*|-)*6(\s*|-)*person(\s*|-)*tent|
+      adidas(\s*|-)*predator(\s*|-)*1(\s*|-)*soccer(\s*|-)*ball|
+      hydro(\s*|-)*flask(\s*|-)*32oz(\s*|-)*water(\s*|-)*bottle|
+      wilson(\s*|-)*evolution(\s*|-)*basketball|
+      yeti(\s*|-)*hopper(\s*|-)*flip(\s*|-)*12(\s*|-)*cooler|
+      north(\s*|-)*face(\s*|-)*black(\s*|-)*hole(\s*|-)*duffel(\s*|-)*40l|
+      garmin(\s*|-)*forerunner(\s*|-)*10(\s*|-)*gps(\s*|-)*watch|
+      nalgene(\s*|-)*wide(\s*|-)*mouth(\s*|-)*1l(\s*|-)*bottle|
+      black(\s*|-)*diamond(\s*|-)*headlamp
+      )\b

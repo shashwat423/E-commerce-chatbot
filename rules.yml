@@ -1,0 +1,42 @@
+version: "3.1"
+
+rules:
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: Check order status
+  steps:
+  - intent: order_status  
+  - action: action_check_order_status
+
+- rule: Check payment status
+  steps:
+  - intent: ask_payment_status
+  - action: action_check_PR_status
+
+- rule: Check refund status
+  steps:
+  - intent: ask_refund_status
+  - action: action_check_PR_status
+
+- rule: Order an item
+  steps:
+  - intent: place_order
+  - action: action_place_order
+
+- rule: Return an item
+  steps:
+  - intent: return_order
+  - action: action_return_order
+
+- rule: asking capabilities
+  steps:
+  - intent: ask_capabilities
+  - action: utter_capabilities
