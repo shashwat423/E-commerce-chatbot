@@ -1,0 +1,87 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - order_status
+  - ask_payment_status
+  - ask_refund_status
+  - place_order
+  - return_order
+  - ask_capabilities
+
+entities:
+  - order_id
+  - quantity
+  - product_name
+
+slots:
+  order_id:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: order_id
+  quantity:
+    type: float
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: quantity
+  product_name:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: product_name
+
+responses:
+  utter_greet:
+    - text: "Hey! How are you?"
+
+  utter_cheer_up:
+    - text: "Here's something to cheer you up!"
+      image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+    - text: "Did that help you?"
+
+  utter_happy:
+    - text: "Great, carry on!"
+
+  utter_goodbye:
+    - text: "Bye!"
+
+  utter_iamabot:
+    - text: "I am a bot, powered by Rasa."
+
+  utter_ask_order_id:
+    - text: "Please provide your order ID."
+
+  utter_order_not_found:
+    - text: "Sorry, I couldn't find any order with ID {order_id}."
+
+  utter_ask_product_details:
+    - text: "Please specify the product details."
+  
+  utter_ask_product_name:
+    - text: "Please specify the product name."
+
+  utter_capabilities:
+    - text: "I can help you with placing orders, returning orders, checking order status, and checking payment/refund status."
+
+
+actions:
+  - action_check_order_status
+  - action_check_PR_status
+  - action_place_order
+  - action_return_order
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

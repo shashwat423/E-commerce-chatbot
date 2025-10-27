@@ -1,0 +1,17 @@
+In Terminal do the following:
+
+1) go to your project directory "cd .\E-com_chatbot\"
+
+2) run this command "Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass"
+
+3) run = .\E-com_chatbot\venv_py310\Scripts\activate
+
+4) rasa train
+
+5) rasa run -m models --enable-api --cors "*" --debug --endpoints endpoints.yml (in one terminal)
+
+6) simultaneously run = "rasa run actions" <in another terminal> (do first 3 steps before running this)
+
+
+Note: when number 5 stops at coroutine debugging open rasa ui from the "ui" folder, there you can chat with the bot.
+      Also close all the csv files related to this project before running above commands.

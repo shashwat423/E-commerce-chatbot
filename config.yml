@@ -1,0 +1,69 @@
+recipe: default.v1
+assistant_id: my_ecommerce_assistant
+language: en
+
+pipeline:
+  # Essential components in correct order
+  - name: WhitespaceTokenizer
+  
+  # Critical for product name recognition
+  - name: RegexFeaturizer
+  
+  # Enhanced featurization
+  - name: LexicalSyntacticFeaturizer
+  
+  # Word-level features
+  - name: CountVectorsFeaturizer
+    analyzer: "word"
+    min_ngram: 1
+    max_ngram: 1
+    # Only include these if you have a limited vocabulary
+    # token_pattern: r'(?u)\b\w+\b'  # Strict word boundaries
+  
+  # Character-level features (helps with typos and variations)
+  - name: CountVectorsFeaturizer
+    analyzer: "char_wb"
+    min_ngram: 1
+    max_ngram: 4
+  
+  # Main classifier with boosted settings
+  - name: DIETClassifier
+    epochs: 200  # Increased for better learning
+    hidden_layers_sizes:
+      text: [256, 192]  # Deeper network
+      label: [128]      # Separate layer for intents
+    dropout: 0.3
+    constrain_similarities: true
+    # Add these for better entity recognition
+    entity_recognition: true
+    BILOU_flag: true
+  
+  # Optional but useful
+  - name: EntitySynonymMapper
+  
+  # Only include if using retrieval intents
+  # - name: ResponseSelector
+  #   epochs: 100
+
+  # Fallback with conservative thresholds
+  - name: FallbackClassifier
+    threshold: 0.4      # Higher confidence required
+    ambiguity_threshold: 0.15
+
+policies:
+  - name: MemoizationPolicy
+  - name: RulePolicy
+    # Enable for strict rules
+    core_fallback_threshold: 0.4
+    core_fallback_action_name: "action_default_fallback"
+  
+  - name: TEDPolicy
+    max_history: 5
+    epochs: 200  # Increased
+    hidden_layers_sizes:
+      text: [256, 192]  # Match DIETClassifier
+    constrain_similarities: true
+  
+  - name: UnexpecTEDIntentPolicy
+    max_history: 5
+    epochs: 100
